@@ -37,7 +37,7 @@ body{
     text-transform: none;
     display: block;
     font-size: 14px;
-    padding-left: 46px;
+    padding-left: 35px;
     font-weight: 600;
     opacity: .9;
     color: white;
@@ -75,8 +75,6 @@ body{
 .home__carousel .carousel-caption h5{
     font-size: 65px;
     line-height: 1.1;
-    margin-bottom: 18px;
-    /* color: #e6e8f6; */
     max-width: 800px;
     font-weight: 600;
 }
@@ -87,12 +85,16 @@ body{
     color: #fff;
     letter-spacing: 0.010em;
     opacity: .9;
+    padding: 10px 0;
 }
 .home__carousel .carousel-caption{
     text-align: left;
     z-index: 11;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
-.home__carousel::after{
+.home__carousel .carousel-item::after{
     content: "";
     background-color: #1d2a37b3;
     position: absolute;
@@ -100,4 +102,72 @@ body{
     top: 0;
     width: 100%;
     height: 100%;
+} 
+.home__carousel .carousel-caption button{
+    padding: 15px 50px;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 600;
+    transition: 0.3s ease-in;
+    border-radius: 15px;
+    background-color: #009f4d;
+    color: #fff;
+    border:#fff;
+}
+.home__carousel .back{
+    position: absolute;
+    top: 90%;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    color:blue;
+    text-align: center;
+    border: 1px solid #00000000;
+    opacity: .5;
+    transition: opacity .15s ease;
+    left: 85%;
+    border-radius: 100%;
+    background-color: #fff;
+    box-shadow: 0 0 15px rgb(0 0 0 / 12%);
+}
+.home__carousel .go{
+    position: absolute;
+    top: 90%;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: #fff;
+    padding: 0;
+    color: blue;
+    text-align: center;
+    border: 1px solid #00000000;
+    opacity: .5;
+    transition: opacity .15s ease;
+    left: 91%;
+    box-shadow: 0 0 15px rgb(0 0 0 / 12%);
+}
+.home__carousel .shape{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.home__carousel .shape path{
+    fill: #fff;
+}
+.animate__delay1{
+    animation-delay: 1s;
+}
+.animate__delay2{
+    animation-delay: 1.5s;
 }
