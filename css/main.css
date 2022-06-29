@@ -242,7 +242,7 @@ p {
 .home__new .new__left,
 .home__new .new__right {
   width: 50%;
-  padding: 0 15px;
+  padding: 0 10px;
 }
 .home__new .new__right .rownew {
   display: flex;
@@ -274,4 +274,116 @@ p {
 .home__new .new__right .item:hover{
     transform: translateY(-0.25rem);
     box-shadow:  rgb(46 41 51 / 8%) 0px 2px 4px, rgb(71 63 79 / 16%) 0px 5px 10px;;
+}
+.home__services .col-4 img{
+    width: 100%;
+    border-radius: 8px;
+}
+.home__services .col-4 .item h5{
+    font-size: 19px;
+    line-height: 28px;
+    font-weight: 600;
+    text-align: center;
+    background: #fff;
+    padding: 12px 35px;
+    display: inline-block;
+    border: 1px solid #00000000;
+    border-radius: 8px;
+    transform: translateY(-25px);
+    box-shadow: rgba(1, 1, 1, 0.05) 1px 1px 5px 0px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.home__services .col-4 .item h5 a{
+    color: #3f3a64;
+    transition: all 0.3s;
+}
+.home__services .col-4 .item h5 a:hover{
+    color: #009f4d;
+}
+.home__services .col-4 .item p{
+    margin-top: -10px;
+    text-align: center;
+}
+.home__services .col-4 .item button{
+    background-color: #fff;
+    color: #3f3a64;
+    transition: all 0.3s;
+}
+.home__services .col-4 .item button:hover{
+    color: #009f4d;
+}
+/* Home Gallery */
+.home__gallery{
+    background-color: #f8f9fa;
+}
+.home__gallery .row .col-4 img{
+    width: 100%;
+   vertical-align:middle;
+   height: 100%;
+}
+.home__gallery .row .col-4{
+    padding-right: calc(.5 * var(--bs-gutter-x));
+    padding-left: calc(.5 * var(--bs-gutter-x));
+}
+.home__gallery .row .col-4 .hover__content .card-title{
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+    display: block;
+    margin-bottom: 10px;
+}
+.home__gallery .row .col-4 .hover__content .content{
+    font-size: 18px;
+    color: #eee;
+    display: block;
+}
+.home__gallery .row .col-4 .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1d2a37b3;
+    transition: all 0.3s;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 1;
+}
+.home__gallery .row .col-4 .hover__content{
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.5s;
+    padding: 46px 50px;
+    color: #ffffff;
+    z-index: 2;
+}
+.home__gallery .row .item:hover .overlay{
+    opacity: 1;
+    visibility: visible;
+}
+.home__gallery .row .item:hover .hover__content{
+    opacity: 1;
+    visibility: visible;
+    bottom: 0;
+}
+.home__gallery .row .item{
+    position: relative;
+    overflow: hidden;
+}
+.home__gallery .gallery__bottom{
+    border-top: 1px solid #eee;
+}
+.home__gallery .gallery__bottom img{
+    width: 100%;
+    height: 100%;
+    padding: 0 18px;
 }
