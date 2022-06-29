@@ -207,6 +207,7 @@ p {
   line-height: 27px;
   color: #666;
   opacity: 0.8;
+  padding: 15px 0;
 }
 .home__about .about__left ul li {
   list-style: none;
@@ -269,4 +270,8 @@ p {
     margin-top: 25px;
     display: block;
     color: #3f3a64;
+}
+.home__new .new__right .item:hover{
+    transform: translateY(-0.25rem);
+    box-shadow:  rgb(46 41 51 / 8%) 0px 2px 4px, rgb(71 63 79 / 16%) 0px 5px 10px;;
 }
