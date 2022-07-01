@@ -387,3 +387,127 @@ p {
     height: 100%;
     padding: 0 18px;
 }
+/* home__success */
+.home__success .progress{
+  display: flex;
+  height: 4px;
+  overflow: hidden;
+  font-size: 0.75rem;
+  background-color:#f7f7f7;
+  border-radius: 0.25rem;
+}
+.home__success .progress__title{
+  font-size: 18px;
+  color: #3f3a64;
+  font-weight: 400;
+}
+.home__success .progress__info1 .progress__bar{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  text-align: center;
+  white-space: nowrap;
+  transition: width 0.6s ease;
+  color: #61fded;
+  background-color: #0d8abc;
+  background-image: linear-gradient(-224deg, #0d8abc, #61fded);
+  background-size: cover;
+  width: 80%;
+}
+.home__success .progress .progress__bar::before{
+  content: "";
+  position: absolute;
+  right: 20%;
+  top: 90%;
+  border-radius: 50%;
+  transform: translate(50%, -50%);
+  height: 28px;
+  width: 28px;
+  border: 1px solid;
+  opacity: .3;
+}
+.home__success .progress .progress__bar::after{
+  content: "";
+  position: absolute;
+  right: 20%;
+  top: 90%;
+  border-radius: 50%;
+  transform: translate(50%, -50%);
+  height: 13px;
+  width: 13px;
+  border: 3px solid;
+  background-color:#fff;
+}
+.home__success .progress__info2 .progress__bar{
+  color: #eece90;
+  background-color: #d45529;
+  background-image: linear-gradient(-224deg, #d45529, #eece90);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  text-align: center;
+  white-space: nowrap;
+  background-color: #00a63f;
+  transition: width 0.6s ease;
+  width: 95%;
+  background-size: cover;
+}
+.home__success .progress__info2 .progress__bar::before{
+  right: 5%;
+}
+.home__success .progress__info2 .progress__bar::after{
+  right: 5%;
+}
+.home__success .progress__info3 .progress__bar{
+  color: #5c51ff;
+  background-color: #f646a9;
+  background-image: linear-gradient(-224deg, #f646a9, #5c51ff);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  text-align: center;
+  white-space: nowrap;
+  transition: width 0.6s ease;
+  width: 60%;
+}
+.home__success .progress__info3 .progress__bar::before{
+  right: 40%;
+}
+.home__success .progress__info3 .progress__bar::after{
+  right: 40%;
+}
+.home__success .progress__info4 .progress__bar{
+  color: #e5529a;
+  background-color: #e77654;
+  background-image: linear-gradient(-224deg, #e77654, #e5529a);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  text-align: center;
+  white-space: nowrap;
+  transition: width 0.6s ease;
+  width: 85%;
+  background-size: cover;
+}
+.home__success .progress__info4 .progress__bar::before{
+  right: 15%;
+}
+.home__success .progress__info4 .progress__bar::after{
+  right: 15%;
+}
+.home__success .progress__title .marketing{
+  width: 80%;
+}
+.home__success .progress__title .design{
+  width: 95%;
+}
+.home__success .progress__title .analytics{
+  width: 60%;
+}
+.home__success .progress__title .development{
+  width: 85%;
+}
