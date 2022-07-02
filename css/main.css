@@ -511,3 +511,33 @@ p {
 .home__success .progress__title .development{
   width: 85%;
 }
+/* home feedback */
+.home__feedback{
+  background-color: #f8f9fa;
+}
+.home__feedback .feedback .item img{
+  border-radius: 50%;
+  object-fit: cover;
+  width: 80px;
+  height: 80px;
+}
+.home__feedback .feedback p,.home__feedback .feedback h3{
+  margin: 0;
+  padding: 0;
+}
+.home__feedback .feedback h3{
+  font-size: 20px;
+  font-weight: 600;
+}
+.home__feedback .feedback .logo__slick{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
+.home__feedback .feedback .title__slick{
+  padding-left: 20px;
+}
+.home__feedback .feedback .item{
+  padding: 30px 40px;
+}
