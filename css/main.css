@@ -13,6 +13,7 @@ body {
 }
 a {
   text-decoration: none;
+  color: #fff;
 }
 /* Home CSS */
 .home__header {
@@ -35,6 +36,7 @@ a {
   font-size: 2vw;
   color: white;
   vertical-align: bottom;
+  font-weight: 600;
 }
 .home__header .navbar .navbar-brand span.logo {
   text-transform: none;
@@ -128,10 +130,10 @@ button {
   width: 50px;
   height: 50px;
   padding: 0;
-  color: blue;
+  color: #3f3a64;
   text-align: center;
   border: 1px solid #00000000;
-  opacity: 0.5;
+  opacity: 1;
   transition: opacity 0.15s ease;
   left: 85%;
   border-radius: 100%;
@@ -151,10 +153,10 @@ button {
   border-radius: 100%;
   background-color: #fff;
   padding: 0;
-  color: blue;
+  color: #3f3a64;
   text-align: center;
   border: 1px solid #00000000;
-  opacity: 0.5;
+  opacity: 1;
   transition: opacity 0.15s ease;
   left: 91%;
   box-shadow: 0 0 15px rgb(0 0 0 / 12%);
@@ -616,12 +618,16 @@ p {
     background-repeat: no-repeat;
     background-position: center;
 }
+.home__subcribe .subcribe__title{
+  max-width: 700px;
+  margin:0 auto;
+}
 .home__subcribe form{
     max-width: 550px;
     margin: auto;
    
 }
-.home__subcribe form .icon__input{
+.home__subcribe form .input-group-text{
     color: #999;
     background-color: rgba(0, 0, 0, 0.25);
     padding: 0 15px;
@@ -644,8 +650,124 @@ p {
     border-left: none;
 }
 .home__subcribe form input:last-of-type{
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
     padding: 0 25px;
     font-size: 16px;
+    color: #fff;
+    background-color: #00a63f;
+    border: 1px;
+    font-weight: 600;
+} 
+/* homefooter */
+.home__footer{
+  background: #151421;
+  border-top: 1px solid rgba(249, 249, 249, 0.1);
+  padding-top: 3rem;
+}
+.home__footer .navbar-brand i {
+  color: #009f4d;
+  margin-right: 5px;
+  font-size: 2vw;
+}
+.home__footer .text{
+  font-size: 2vw;
+  color: white;
+  vertical-align: bottom;
+  font-weight: 600;
+}
+.home__footer .logo {
+  text-transform: none;
+  display: block;
+  font-size: 14px;
+  padding-left: 35px;
+  font-weight: 600;
+  opacity: 0.9;
+  color: white;
+}
+.home__footer .footer__top .col-4 p,.home__footer .footer__top .col-4 a{
+  font-size: 18px;
+  line-height: 28px;
+  color: #97a1a9;
+  padding: 0;
+  transition: all 0.5s;
+}
+.home__footer .footer__top .col-4 a:hover{
+  color: #fff;
+}
+.home__footer .footer__top .col-4 .info a{
+  margin-right: 15px;
+  display: inline-block;
+  text-align: center;
+  font-size: 16px;
+  background: none;
+  border-radius: 50%;
+  transition: 0.3s;
+  color: #97a1a9;
+  opacity: .6;
+}
+.home__footer .footer__top .col-4 .info a:hover{
+  color: #fff;
+  opacity: 1;
+}
+.home__footer h6{
+  font-size: 22px;
+  line-height: 28px;
+  margin-bottom: 25px;
+  font-weight: 400;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+}
+.home__footer .col-2 ul{
+  padding: 0;
+  margin: 0;
+}
+.home__footer .col-2 ul li{
+  margin-bottom: 10px;
+  list-style: none;
+}
+.home__footer .col-2 ul a{
+  font-size: 18px;
+  line-height: 28px;
+  color: #97a1a9;
+  transition: all 0.5s;
+}
+.home__footer .col-2 ul a:hover{
+  color: #fff;
+}
+/* footerbot */
+.footer__bot{
+  padding: 1.5em 0;
+  border-top: 1px solid rgba(249, 249, 249, 0.1);
+  text-align: center;
+}
+.home__footer .footer__bot{
+  align-self: center;
+  color: #7f8a94;
+  font-size: 17px;
+  letter-spacing: .5px;
+  opacity: 1;
+}
+.home__footer .footer__bot a{
+  color:#009f4d;
+  transition: all 0.5s;
+}
+.home__footer .footer__bot a:hover{
+  color: #fff;
+}
+.my_bttn {
+  width: 50px;
+  height: 50px;
+  background:#00a63f;
+  border-radius: 50%;
+  line-height: 50px;
+  text-align: center;
+  display: block;
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  color: #fff;
+  transition: all 0.2s;
+  visibility: visible;
 }

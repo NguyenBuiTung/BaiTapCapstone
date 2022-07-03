@@ -629,20 +629,82 @@
     </section>
     <section class="home__subcribe py-5">
         <div class="container py-md-5 py-sm-4 py-2">
-<div class="subcribe__title">
-    <h3 class="text-center text-white">Let’s find out how to work together</h3>
-    <p class="text-center text-white">Lorem ipsum dolor sit amet elit. Velit beatae rem ullam dolore nisi esse quasi, sit amet. Lorem ipsum dolor sit amet elit.
-    </p>
-</div>
-<form action class="subscribe mt-5 d-flex align-items-center" method="post">
-    <div class="icon__input">
-        <i class="fa fa-paper-plane"></i>
-    </div>
-    <input type="email" placeholder="Your Email Address" >
-    <input  class="btn btn-style btn-primary" type="button" value="Subcrice">
-</form>
+            <div class="subcribe__title">
+                <h3 class="text-center text-white">Let’s find out how to work together</h3>
+                <p class="text-center text-white">Lorem ipsum dolor sit amet elit. Velit beatae rem ullam dolore nisi
+                    esse quasi, sit amet. Lorem ipsum dolor sit amet elit.
+                </p>
+            </div>
+            <form action class="subscribe mt-5 d-flex align-items-center" method="post">
+                <div class="input-group flex-nowrap">
+                    <span class="input-group-text">
+                        <i class="fa fa-paper-plane"></i>
+                    </span>
+                    <input type="email" placeholder="Your Email Address">
+                    <input type="button" value="Subcribe">
+                </div>
+            </form>
         </div>
     </section>
+    <footer class="home__footer">
+        <div class="container py-md-4">
+            <div class="footer__top row">
+                <div class="col-4">
+                    <a class="navbar-brand mb-4" href="#">
+                        <div class="corp d-flex align-items-center">
+                            <i class="fa fa-align-right"></i>
+                            <span class="text">Corp Vision</span>
+                        </div>
+                        <span class="logo">Vision to your Future</span>
+                    </a>
+                    <p>Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula. Semper at
+                        tempufddfel. Lorem ipsum dolor sit amet Semper at elit team advisors.</p>
+                    <div class="info">
+                        <a href=""><i class="fab fa-facebook-f"></i></a>
+                        <a href=""><i class="fab fa-twitter"></i></a>
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                        <a href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+
+                </div>
+                <div class="col-4">
+                    <h6>CONTACT INFO</h6>
+                    <p class="mb-2">Address : Corp Vision, 343 marketing, #21 cravel 1st lane street, NY - 62617.</p>
+                    <p class="mb-2">Phone Number : +1(21) 234 4567</p>
+                    <p class="mb-2">Email : <a href="">info@example.com</a> </p>
+                    <p class="mb-2">Support : <a href="">info@support.com</a></p>
+                </div>
+                <div class="col-2">
+                    <h6>CATEGORIES</h6>
+                    <ul>
+                        <li><a href=""> Marketing Strategy</a></li>
+                        <li><a href="">Startup Business</a> </li>
+                        <li><a href="">Web development</a></li>
+                    </ul>
+                </div>
+                <div class="col-2">
+                    <h6>META</h6>
+                    <ul>
+                        <li><a href=""> Log in</a></li>
+                        <li><a href="">Entries feed</a> </li>
+                        <li><a href=""> Comments feed</a></li>
+                        <li><a href="">WordPress.org</a> </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bot">
+            <div class="container">
+                <p>© 2022 Corp Vision All Rights Reserved |
+                    WordPress Theme by <a href="https://w3layouts.com/">
+                        W3Layouts. </a> </p>
+
+            </div>
+        </div>
+        <a href="#" class="my_bttn">
+            <i class="fa fa-angle-up"></i>
+        </a>
+    </footer>
     <!-- slick -->
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
@@ -656,6 +718,24 @@
                 slidesToShow: 1,
                 adaptiveHeight: true
 
+            });
+        });
+    </script>
+    <!-- backtotop -->
+    <script>
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                if ($(window).scrollTop() > 300) {
+                    $('.my_bttn').fadeIn(250);
+                }
+                else {
+                    $('.my_bttn').fadeOut(250);
+                }
+            });
+            $('.my_bttn').click(function () {
+                $('html,body').animate(
+                    { scrollTop: 0 }, 400
+                );
             });
         });
     </script>
