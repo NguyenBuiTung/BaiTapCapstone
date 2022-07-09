@@ -1096,3 +1096,66 @@ p {
   opacity: 0.8;
   padding: 0;
 }
+/* .about__choose */
+.about__choose{
+  background: #f7f7f7;
+}
+.about__choose .about__title{
+  max-width: 800px;
+  margin: 0 auto;
+}
+.about__choose .choose .item{
+  display: flex;
+  align-items: center;
+}
+.about__choose .choose .item i{
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  border-radius: 8px;
+  color: #009f4d;
+  border: 1px solid;
+  text-align: center;
+  font-size: 30px;
+}
+.about__choose .choose .item h3 a{
+  text-align: left;
+  margin-bottom: 0;
+  font-weight: 600;
+  font-size: 24px;
+}
+.about__choose .choose .item p{
+  margin: 0;
+  padding: 0;
+  font-size: 17px;
+  line-height: 27px;
+  color: #666;
+  opacity: .8;
+}
+.about__choose .choose .item .info{
+  flex: 1;
+  padding-left:16px ;
+}
+.about__choose .choose .item .color2{
+  color: #3f3a64;
+}
+.about__choose .choose .item .color3{
+  color: #ff4c4c;
+}
+.about__choose .choose .item .color4{
+  color: #f48924;
+}
+/* .about__get */
+.about__get .get .get__left p{
+  margin: 0;
+  padding: 0;
+  font-size: 17px;
+  line-height: 27px;
+  color: #666;
+  opacity: .8;
+}
+.about__get .get__right button:hover{
+  color: #fff;
+  background-color: #008030;
+  border-color: #00732c;
+}
