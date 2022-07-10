@@ -91,6 +91,15 @@ a:hover {
   z-index: 10;
   width: 100%;
 }
+.nav-fixed{
+  background-color:   #fff;
+  padding: 0;
+  height: 80px;
+  border-bottom: none;
+  box-shadow: 0 3px 6px 0 rgb(0 0 0 / 5%);
+  z-index: 999;
+  
+}
 .header .navbar-light .navbar-brand i {
   color: #009f4d;
   margin-right: 5px;
@@ -1373,4 +1382,82 @@ p {
   background-color: #fff;
   transition: .3s ease;
   
+}
+/* contact */
+.contact__info{
+  background: #f8f9fa;
+}
+.contact__info .title{
+  max-width: 800px;
+  margin: 0 auto;
+}
+.contact__info .contact .item{
+  display: flex;
+  background: #fff;
+  padding: 30px;
+  box-shadow: rgba(1, 1, 1, 0.05) 1px 1px 5px 0px;
+  border-radius: 8px;
+  gap: 20px;
+}
+.contact__info .contact .item i{
+  font-size: 40px;
+  color: #3f3a64;
+}
+.contact__info .contact .item .location h4{
+  font-size: 22px;
+  font-weight: 600;
+  color: #3f3a64;
+}
+.contact__info .contact .item .location p{
+  padding: 0;
+  margin: 0;
+}
+/* .contact__map */
+.contact__map{
+  background-color: #f8f9fa;
+}
+.contact__map iframe{
+  width: 100%;
+  border: none;
+  min-height: 400px;
+  display: block;
+}
+/* .contact__form */
+.contact__form{
+  background: #f8f9fa;
+}
+.contact__form .title{
+  max-width: 600px;
+  margin: 0 auto;
+}
+.contact__form form{
+  max-width: 900px;
+  margin: 0 auto;
+}
+.contact__form .project input{
+  width: 100%;
+  color: #666;
+  background: #fff;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-family: inherit;
+  padding: 0px 25px;
+  /* border: 1px solid #eee; */
+  outline: none;
+  border-radius: 8px;
+  height: 60px;
+  display: inline-block;
+  line-height: 50px;
+  box-shadow: none;
+}
+.contact__form .mess{
+  resize: none;
+  height: 130px;
+  margin: 30px 0;
+}
+.contact__form form button:hover{
+  color: #fff;
+  background-color: #008030;
+  border-color: #00732c;
 }
