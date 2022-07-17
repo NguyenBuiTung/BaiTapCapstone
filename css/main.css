@@ -1593,3 +1593,100 @@ pre{
   background-color: #f7f7f7;
   padding: 0.75rem 1rem;
 }
+
+/* REPONSIVE */
+/* home */
+@media screen and (max-width:768px){
+  .home__footer .col-4{
+    width: 100%;
+  }
+  .footer__top .col-2{
+    width: 100%;
+  }
+}
+@media screen and (max-width:576px){
+  .home__about .about__left,.home__about .about__right{
+    width: 100%;
+  }
+  .home__new .new__left,.home__new .new__right{
+width: 100%;
+  }
+  .home__new .new__left{
+    margin-bottom: 20px;
+  }
+.home__services .col-4{
+  width: 100%;
+}
+.home__gallery .gallery__center .col-4{
+  width:100% ;
+}
+.home__gallery .gallery__center{
+  gap: 20px;
+}
+}
+/* About */
+@media screen and (max-width:576px){
+  .about__company .col-6{
+    width: 100%;
+  }
+  .about__company .company__left{
+    margin-bottom: 40px;
+  }
+  .about__company .company__bot .col-4{
+    width: 100%;
+    margin: 10px 0;
+  }
+  .about__company .company__bot .row{
+    flex-wrap: wrap !important
+  }
+  .about__develop .develop__left,.about__develop .develop__right{
+    width: 100%;
+  }
+  .about__choose .choose .col-6{
+    width: 100%;
+    padding: 10px 0;
+  }
+  .about__choose .choose .col-6 .item{
+    margin: 0 !important
+  }
+  .about__get .get__left,.about__get .get__right{
+    width: 100%;
+  }
+  .about__get .get__left{
+    margin-bottom: 20px;
+  }
+}
+/* services */
+@media screen and (max-width:576px){
+  .services__check .check .col-6{
+    width: 100%;
+    margin: 0 !important
+  }
+  .services__check .check .col-6{
+    padding: 20px 0;
+  }
+  .services__industries .industries .col-4{
+    width: 100%;
+    margin: 0 !important
+  }
+  .services__industries .industries .col-4{
+    padding: 20px;
+  }
+  .services__info .info__left,.services__info .info__right{
+    width: 100%;
+  }
+  .services__info .info__left{
+    margin-bottom: 40px;
+  }
+  .services__challenges .challenges .col-4{
+    width: 100%;
+    padding: 20px 0;
+  }
+}
+/* contact */
+@media screen and (max-width:576px){
+  .contact__info .contact .col-4{
+    width: 100%;
+    padding: 20px 0;
+  }
+}
