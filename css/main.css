@@ -13,7 +13,7 @@ body {
 }
 a {
   text-decoration: none;
-  color: #3f3a64;
+  /* color: #3f3a64; */
 }
 a:hover {
   color: #009f4d;
@@ -853,6 +853,9 @@ p {
   transition: all 0.2s;
   visibility: visible;
   z-index: 100;
+}
+.my_bttn :hover{
+  color: #fff;
 }
 /* ABOUT */
 .about__carousel .carousel__bg {
