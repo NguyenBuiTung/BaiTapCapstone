@@ -852,6 +852,7 @@ p {
   color: #fff;
   transition: all 0.2s;
   visibility: visible;
+  z-index: 100;
 }
 /* ABOUT */
 .about__carousel .carousel__bg {
