@@ -130,7 +130,11 @@ a:hover {
 .header .navbar-light .navbar-nav .nav-link {
   color: #fff;
   font-weight: 600;
-  opacity: 0.8;
+  opacity: 0.8
+}
+.header .navbar-light .navbar-nav .nav-link.active{
+  color: #fff;
+  opacity: 1;
 }
 .header .navbar-light .navbar-nav .nav-link:hover {
   color: #fff;
@@ -139,6 +143,10 @@ a:hover {
 .header form i {
   color: #fff;
   font-size: 20px;
+}
+.nav-fix{
+  background-color: #fff;
+  color: #3f3a64;
 }
 .header form i:first-of-type {
   line-height: 45px;
